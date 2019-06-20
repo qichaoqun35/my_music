@@ -22,9 +22,11 @@
 ### v 1.1.0  
 优化了播放页面  
 能够实现播放页背景虚化、毛玻璃效果  
-能够使得音乐专辑图片在播放的旋转  
+能够使得音乐专辑图片在音乐播放的时候动态旋转  
+优化了代码结构  
+解决了部分bug
 <p>
-<img src="https://github.com/qichaoqun35/my_music/blob/master/wapper_image/new_play_pager.jpg" alt="Sample"  width="150"height="260">	
+<img src="https://github.com/qichaoqun35/my_music/blob/master/wapper_image/new_play_pager.png" alt="Sample"  width="150"height="260">	
 </p>
 
 ### v 1.0.1  
