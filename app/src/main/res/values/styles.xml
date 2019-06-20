@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--应用启动页面的主题-->
+    <style name="launcher_style" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="android:windowBackground">@drawable/launcher_screen</item>
+    </style>
+
+    <!--创建用于实现音乐播放页面的动画-->
+    <style name="paly_anima" parent="AppTheme.NoActionBar">
+
+        <item name="android:windowExitTransition">@transition/silde</item>
+        <item name="android:windowEnterAnimation">@transition/silde</item>
+        <item name="android:windowReenterTransition">@transition/silde</item>
+    </style>
+
+</resources>

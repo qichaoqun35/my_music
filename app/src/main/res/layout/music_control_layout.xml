@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="2">
+
+            <TableRow>
+                <!--歌曲图片-->
+                <ImageView
+                    android:id="@+id/music_image_small"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="3dp"
+                    android:layout_column="1"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_column="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/music_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="歌曲名称"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/music_singer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="演唱者"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_column="1">
+
+                    <ImageView
+                        android:id="@+id/music_switch"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:src="@drawable/music_pause"/>
+
+                    <ImageView
+                        android:id="@+id/music_next"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/music_next"/>
+
+
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+
+</RelativeLayout>

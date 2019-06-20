@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dinuscxj:circleprogressbar:1.3.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-circleprogressbar-1.3.0.aar/64062d0383c227c691fb320ad819dce2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-circleprogressbar-1.3.0.aar/64062d0383c227c691fb320ad819dce2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-circleprogressbar-1.3.0.aar/64062d0383c227c691fb320ad819dce2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dinuscxj/circleprogressbar/1.3.0/d7c8568c1d4af213e5861038a50f24b58df0ad71/circleprogressbar-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
