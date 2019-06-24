@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.SheHuan:NiceImageView-1.0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-NiceImageView-1.0.5.aar/83a030ae1c86d310e1f9044aef642341/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-NiceImageView-1.0.5.aar/83a030ae1c86d310e1f9044aef642341/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.SheHuan/NiceImageView/1.0.5/d07365f81fa8ecab87767a0abc3075cc18ac3b43/NiceImageView-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
